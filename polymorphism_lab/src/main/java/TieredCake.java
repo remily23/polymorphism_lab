@@ -8,7 +8,6 @@ public class TieredCake extends Cake {
     }
 
     public void addDecoration(String decorationType) {
-        decoration = decorationType;
         System.out.println("Decoration added " + decorationType);
     }
 

@@ -5,9 +5,11 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class TraybakeTest {
 
+    Traybake traybake;
+
     @BeforeEach
     void setUp(){
-        Traybake traybake = new Traybake("Carrot");
+        traybake = new Traybake("Healthy Traybake", "Carrot", true);
     }
 
     @Test
