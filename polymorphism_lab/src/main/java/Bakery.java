@@ -2,10 +2,14 @@ import java.util.ArrayList;
 
 public class Bakery {
 
-    private ArrayList<Cake> cakes = new ArrayList<>();
+    private ArrayList<Cake> cakes;
 
-    public ArrayList<Cake> getCakes(){
-        return cakes;
+    public Bakery(){
+        this.cakes = new ArrayList<>();
+    }
+
+    public int countCakes(){
+        return this.cakes();
     }
 
     public void addCake(Cake cake){

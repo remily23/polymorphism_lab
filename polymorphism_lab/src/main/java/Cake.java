@@ -1,5 +1,5 @@
 
-public class Cake {
+public abstract class Cake {
 
     private String name;
     private String baseFlavour;
@@ -28,5 +28,4 @@ public class Cake {
         public void setBaseFlavour(String baseFlavour){
         this.baseFlavour = baseFlavour;
         }
-
 }

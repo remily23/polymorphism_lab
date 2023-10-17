@@ -9,14 +9,6 @@ public class Cupcake extends Cake implements Icingable {
         this.icing = null; // starts off with no icing
     }
 
-//    public void addIcing (String icingType){
-//        System.out.println("Icing added: " + icingType);
-//    }
-
-//    public String AddIcing() {
-//        return "Pink icing";
-//    }
-
     @Override
     public void addIcing (String flavour){
         this.icing = flavour;
@@ -32,5 +24,7 @@ public class Cupcake extends Cake implements Icingable {
                 + "Base flavour: " + getBaseFlavour()
                 + "Icing: " + getIcing();
     }
+
+
 
 }

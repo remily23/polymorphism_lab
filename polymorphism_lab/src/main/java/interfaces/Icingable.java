@@ -2,6 +2,6 @@ package interfaces;
 
 public interface Icingable {
 
-    void addIcing (String icing);
+    String addIcing (String icing);
 
 }
