@@ -10,8 +10,9 @@ public class Cupcake extends Cake implements Icingable {
     }
 
     @Override
-    public void addIcing (String flavour){
+    public String addIcing (String flavour){
         this.icing = flavour;
+        return flavour;
     }
 
     public String getIcing(){
